@@ -1,0 +1,9 @@
+body {
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    font-family: Tahoma, sans-serif;
+}
+
+h1, p{
+    text-align: center;
+}
