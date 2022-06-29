@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1 id="title">freeCodeCamp Survey Form</h1>
@@ -25,8 +26,14 @@
             <option>Other</option>
         </select>
 
-        <input type="radio" name="yes"> <!--finish radio button-->
-        <input type="radio" name="no">
+        <fieldset>
+        <label>Yes</label>
+        <input type="radio" name="recommend" value="yes">
+        <label>No</label>
+        <input type="radio" name="recommend" value="no">
+        <label>Maybe</label>
+        <input type="radio" name="recommend" value="not sure">
+        </fieldset>
     </form>
 </body>
 </html>
