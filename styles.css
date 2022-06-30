@@ -38,3 +38,13 @@ input, textarea {
     border: 1px, solid #0a0a23; 
     color: antiquewhite;
 }
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border-color: antiquewhite;
+    min-width: 300px;
+}
